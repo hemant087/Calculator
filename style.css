@@ -1,0 +1,114 @@
+body{
+    font-family: 'open sans',sans-serif;
+    background-color: #7d92e0bd ;
+}
+.container{
+    width: auto; 
+    height: auto;
+    margin: 50px auto;
+    /* background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(image.jpg); */
+    /* padding-bottom: ; */
+    background-color: #a9cc7b;
+    
+}
+#calculator{
+    width: 320px;
+    height: 530px;
+    background-color: #eaedef;
+    margin: 0 auto;
+    top: 20px;
+    position: static ;
+    border-radius: 5px;
+    box-shadow: 14px 11px 18px 0px rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding-bottom: 50px;
+
+}
+#result{
+    height: 120px;
+}
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    color: #919191;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 2opx;
+    font-size: 30px;
+    color: black;
+}
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #9191911c;
+}
+
+.number, .empty{
+    background-color: #eaedef;
+}
+.operator, .number{
+    cursor: pointer;
+}
+/* sudo class ,, i will study letter*/
+.operator:active, .number:active{
+    font-size: 13px;
+}
+.operator:focus, .number:focus .empty:focus{
+    outline: 0;
+}
+.footer{
+    text-align: center;
+    /* border: 2px solid black; */
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 56px;
+    margin-top: -10px;
+    box-shadow: #393b3b;
+
+}
+button:nth-child(4){
+
+    font-size: 20px;
+    background-color: #20b2aa ;
+}
+button:nth-child(8){
+
+    font-size: 20px;
+    background-color: #ffa500 ;
+}
+button:nth-child(12){
+
+    font-size: 20px;
+    background-color: #f08080 ;
+}
+button:nth-child(16){
+
+    font-size: 20px;
+    background-color: #7d93e0 ;
+}
+button:nth-child(20){
+
+    font-size: 20px;
+    background-color: #9477af ;
+}
+.follow{
+    font-size: 2.5rem;
+    color:black;
+    margin:0 .7rem;
+} 
+.follow:hover{
+    color:var(--main-color);
+}
